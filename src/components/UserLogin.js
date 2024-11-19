@@ -133,27 +133,8 @@ submitForm(event) {
             detail: { status: false, message: 'Usuario o contraseña incorrectos', bubbles: true, composed: true }
         }));
     }
-    
-    // Puede ser útil también enviar una alerta tipo 'info' en otros contextos:
-    // Ejemplo de mensaje informativo cuando el usuario pasa el mouse sobre el campo de contraseña
-    this.dispatchEvent(new CustomEvent('alert', {
-        detail: { type: 'info', message: 'Recuerda que tu contraseña es sensible a mayúsculas y minúsculas', bubbles: true, composed: true }
-    }));
-    
-    /*if (username === 'admin' && password === 'admin') {
-        this.errorMessage.textContent = ''; 
-        this.dispatchEvent(new CustomEvent('login-result', {
-            detail: { status: true, message: 'Inicio de sesión exitoso', bubbles: true, composed: true }
-        }));
-    } else {
-        
-        this.dispatchEvent(new CustomEvent('login-result', {
-            detail: { status: false, message: 'Usuario o contraseña incorrectos', bubbles: true, composed: true }
-        }));
     }
 }
-}*/
-}}
 
 customElements.define('user-login', UserLogin);
 
