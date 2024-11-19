@@ -1,0 +1,22 @@
+/* Estilos globales compartidos (puedes incluir este CSS en un archivo global) */
+
+/* Estilo de la tipografía y los colores comunes */
+:root {
+    --primary-bg-color: #121212; /* Fondo oscuro */
+    --secondary-bg-color: #1e1e1e; /* Fondo del formulario */
+    --accent-color: #5d9b9b; /* Color del botón */
+    --success-color: #28a745; /* Éxito */
+    --error-color: #dc3545; /* Error */
+    --warning-color: #ffc107; /* Advertencia */
+    --info-color: #17a2b8; /* Información */
+    --text-color-light: white; /* Texto claro */
+    --text-color-dark: black; /* Texto oscuro */
+    --input-bg-color: #2a2a2a; /* Fondo de inputs */
+    --input-border-color: #444; /* Borde de los inputs */
+    --input-focus-border-color: #5d9b9b; /* Borde al hacer focus */
+    --border-radius: 8px; /* Bordes redondeados */
+    --input-padding: 10px;
+    --button-padding: 12px;
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+}
